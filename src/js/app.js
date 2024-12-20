@@ -94,7 +94,7 @@ loginbtn.addEventListener('click', function (e) {
     e.preventDefault();
     const userName = username.value;
     const pin = password.value;
-    currentAcc = Accounts.find(acc => acc.username.toLowerCase() === username.value);
+    currentAcc = Accounts.find(acc => acc.username.toLowerCase() === username.value.toLowerCase());
     if ((currentAcc === null || currentAcc === void 0 ? void 0 : currentAcc.password) === +(pin)) {
         disnone.classList.toggle('d-none');
         logged.classList.toggle('d-none');
