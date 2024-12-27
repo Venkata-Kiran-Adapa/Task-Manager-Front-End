@@ -52,11 +52,15 @@ git clone https://github.com/Venkata-Kiran-Adapa/Task-Manager.git
 ```bash
   npm install
 ```
-4. Start the development server:
+4. Build the Project:
+```bash
+  npm run build
+```
+5. Start the development server:
 ```bash
   npm start
 ```
-5. Open the app in your browser at http://localhost:8080.
+6. Open the app in your browser at http://localhost:8080.
 
 
 
