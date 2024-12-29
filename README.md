@@ -2,7 +2,17 @@
 # Task Manager
 
 This Task Manager is a simple web application built using TypeScript and Bootstrap. It allows users to manage their tasks by adding new tasks, viewing tasks, and categorizing them into various categories like Personal, Home, Office, and College. The application is fully responsive, ensuring it adapts seamlessly from mobile devices to tablets to desktops.
+## Table of Contents
 
+1. [Features](#features)  
+2. [Technologies Used](#technologies-used)  
+3. [How It Works](#how-it-works)  
+4. [Deployment](#deployment)  
+5. [Webpack Configuration](#webpack-configuration)  
+6. [Usernames and Pins](#usernames-and-pins)  
+7. [Previews](#previews)  
+
+---
 
 ## Features
 1. ***User Authentication***
@@ -22,11 +32,12 @@ This Task Manager is a simple web application built using TypeScript and Bootstr
 - The application is fully responsive, ensuring it works seamlessly across devices of all sizes, from mobile phones to desktops and laptops.
 4.**Persistence**:
 - Tasks are saved in localStorage, so data persists even after the page is refreshed or the browser is closed.
-## Techologies Used
+## Technologies Used
 - TypeScript for type-safe and structured code.
 - Bootstrap for responsive design and UI components.
 - HTML and CSS for frontend styling and layout.
 - DOM Manipulation for dynamic content and task management.
+- Webpack: For module bundling, optimizing assets, and simplifying the development workflow.
 
 
 ## How It Works
@@ -62,7 +73,14 @@ git clone https://github.com/Venkata-Kiran-Adapa/Task-Manager.git
 ```
 6. Open the app in your browser at http://localhost:8080.
 
+## Webpack Configuration
+Webpack is used to bundle the TypeScript files. The webpack.config.js file handles the following:
 
+- **Entry:** Specifies the entry point (app.ts) for the application.
+- **Output:** Bundles the TypeScript files into a single JavaScript file (app.js).
+- **Loaders:** Uses ts-loader to transpile TypeScript files into JavaScript.
+- **DevServer:** Configures Webpack's development server to serve the app.
+- **Source Maps:** Enables inline source maps for easier debugging
 
 ## Usernames and pins
 
