@@ -83,9 +83,19 @@ Here is the  preview of the app in different views:
 
 *   **Mobile View**
    [![Watch the video](https://img.shields.io/badge/Watch%20Video-blue)](https://github.com/Venkata-Kiran-Adapa/Task-Manager/blob/master/mobile.mp4)
+
+![image](https://github.com/user-attachments/assets/3add6280-9ce6-427d-8529-d3d548e0832b)
+
     
 *   **Tablet View**
         [![Watch the video](https://img.shields.io/badge/Watch%20Video-blue)](https://github.com/Venkata-Kiran-Adapa/Task-Manager/blob/master/Tablet.mp4)
     
+    ![image](https://github.com/user-attachments/assets/38d1e9fc-89d7-4c0b-aeb4-d32d1f2cd022)
+
+    
 *   **Desktop View**
    [![Watch the video](https://img.shields.io/badge/Watch%20Video-blue)](https://github.com/Venkata-Kiran-Adapa/Task-Manager/blob/master/laptop.mp4)
+
+![image](https://github.com/user-attachments/assets/818bb62c-c7ef-4d7b-8c35-155bcd905cc8)
+
+
