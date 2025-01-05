@@ -26,11 +26,14 @@ This Task Manager is a simple web application built using TypeScript and Bootstr
    - *Due Date*: The target date for completing the task (e.g., "30/12/2024").
 - **Task Types**: After adding tasks, users can view them under the selected categories. Tasks are dynamically filtered based on the selected category.
 - **Delete Tasks**: Users can delete tasks after they are marked as completed or no longer needed.
+
 3.**Categorize Tasks**:
 - Tasks can be categorized into Personal, Home, Office, and College categories.
+
 4.**Responsiveness**:
 - The application is fully responsive, ensuring it works seamlessly across devices of all sizes, from mobile phones to desktops and laptops.
-4.**Persistence**:
+
+5.**Persistence**:
 - Tasks are saved in localStorage, so data persists even after the page is refreshed or the browser is closed.
 ## Technologies Used
 - TypeScript for type-safe and structured code.
